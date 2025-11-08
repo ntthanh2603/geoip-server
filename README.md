@@ -86,29 +86,6 @@ Get a MaxMind license key (free):
 - Sign up: https://www.maxmind.com/en/geolite2/signup
 - Generate license key: https://www.maxmind.com/en/accounts/current/license-key
 
-### Local Development
-
-```bash
-# Clone repository
-git clone https://github.com/ntthanh2603/geoip-server.git
-cd geoip-server
-
-# Configure environment
-cp .env.example .env
-# Edit .env with your MaxMind credentials
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run server
-python main.py
-```
-
-Access the API:
-- **API:** http://localhost:4360
-- **Swagger UI:** http://localhost:4360/docs
-- **ReDoc:** http://localhost:4360/redoc
-
 ### Docker Development
 
 ```bash
